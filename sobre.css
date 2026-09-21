@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #020202;
+    color: #ffffff;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Cabeçalho do Sobre */
+.header-apresentacao {
+    width: 100%;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(2, 2, 2, 0.95);
+    backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+/* Menu de Navegação Completo no Topo */
+.nav-apresentacao {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-apresentacao a {
+    color: #b0b0b0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+    transition: color 0.3s ease;
+}
+
+.nav-apresentacao a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+/* Área Principal */
+.container-apresentacao {
+    padding: 190px 80px 100px 80px;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conteudo-intro h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3.5rem;
+    letter-spacing: 6px;
+    margin-bottom: 25px;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.15);
+}
+
+.conteudo-intro p {
+    color: #a0a0a0;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+
+.manifesto-box {
+    margin-top: 60px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.02);
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    text-align: left;
+}
+
+.manifesto-box h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.manifesto-box p {
+    color: #888888;
+    font-size: 1rem;
+    line-height: 1.8;
+}

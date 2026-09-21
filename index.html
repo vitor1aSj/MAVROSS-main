@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mavros - Fotografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--  Flashes dos Cantos -->
+    <div class="bg-vignette-light">
+        <div class="flash-bolha b1"></div>
+        <div class="flash-bolha b2"></div>
+        <div class="flash-bolha b3"></div>
+        <div class="flash-bolha b4"></div>
+    </div>
+
+    <!--  Flash de Tela Cheia -->
+    <div class="camera-flash"></div>
+
+    <header>
+        <h2 class="logo">Mavros</h2>
+
+        <!-- Menu de navegação  -->
+        <nav class="navigation">
+            <a href="contato.html">Contato</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+
+        <!-- Ícone do Menu  -->
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <div class="tela-i">
+        
+        <h2 class="title">redefina o seu olhar</h2>
+
+        <div class="wrapper">
+            <span class="icon-close">
+                <ion-icon name="close"></ion-icon>
+            </span>
+
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#" id="form-login">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required id="email">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required id="password">
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#" id="formCadastro">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required id="person">
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required id="email_register">
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required id="password_register">
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                        <p id="mensagem"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Botão na lente -->
+        <a class="btn-desblock" id="btn-expedicao">
+            <ion-icon name="chevron-up-outline"></ion-icon>
+        </a>
+    </div>
+
+    <div class="tela2"></div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
